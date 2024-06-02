@@ -72,7 +72,7 @@ a = 10;
 console.log(a);
 
 const firstName = "Muhammad";
-const firstName = "usman";
+const firstName = "faraz";
 
 console.log(firstName);
 
