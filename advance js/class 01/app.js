@@ -1,7 +1,7 @@
 // var  
 // reinitialize (y)
 // reassign (y)
-// hoisting (y)
+// hoisting (y)  
 // blockscope (y)
 
 
