@@ -31,6 +31,7 @@ abc();
 // hoisting (n)
 // blockscope (y)
 
+
 const a = 12;
 
 {
@@ -38,6 +39,7 @@ const a = 12;
   console.log(a);
 }
 console.log(a);
+
 
 // let
 // reinitialize (n)
@@ -87,6 +89,8 @@ console.log(abc);
 
 const abc = 12;
 
+
+
 // Template literals
 
 let firstName = "Muhammad";
@@ -94,7 +98,10 @@ let lastName = "faraz";
 
 // console.log("Welcome to " + firstName + " " + lastName);  Way to ES5 execution
 
+
 console.log(`Welcome to ${firstName} ${lastName}. I am a web developer`); // ES6
+
+
 
 // Task to generate multiplication table
 
