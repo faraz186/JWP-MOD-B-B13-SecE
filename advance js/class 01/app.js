@@ -18,6 +18,7 @@ var a = "Muhammad";
 
 // Function scope var keyword
 
+
 function abc() {
   var a = "faraz";
   console.log(a);
@@ -38,6 +39,7 @@ const a = 12;
   const a = 10;
   console.log(a);
 }
+
 console.log(a);
 
 
@@ -60,15 +62,19 @@ console.log(obj)
 // hoisting (n)
 // blockscope (y)
 
+
 let a = 12;
 
 {
   let a = 10;
   console.log(a);  
 }
+
 console.log(a);
 
+
 // Function scope const keyword
+
 
 function abc() {
   const a = 100;
@@ -84,6 +90,8 @@ a = 10;
 
 console.log(a);
 
+
+
 const firstName = "Muhammad";
 const firstName = "faraz";
 
@@ -95,11 +103,13 @@ var abc = true;
 
 abc();
 
+
 function abc() {
   console.log("abc");
 }
 
 console.log(abc);
+
 
 const abc = 12;
 
@@ -110,10 +120,12 @@ const abc = 12;
 let firstName = "Muhammad";
 let lastName = "faraz";
 
+
 // console.log("Welcome to " + firstName + " " + lastName);  Way to ES5 execution
 
 
 console.log(`Welcome to ${firstName} ${lastName}. I am a web developer`); // ES6
+
 
 
 
