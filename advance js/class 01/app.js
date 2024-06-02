@@ -15,6 +15,7 @@ console.log(a);
 
 var a = "Muhammad";
 
+
 // Function scope var keyword
 
 function abc() {
@@ -22,6 +23,7 @@ function abc() {
   console.log(a);
 }
 abc();
+
 
 // const
 // reinitialize (n)
