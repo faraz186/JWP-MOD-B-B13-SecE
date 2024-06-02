@@ -66,7 +66,8 @@ abc();
 console.log(a);
 
 const a = 12;
-a = 10;
+
+a = 10;  
 
 console.log(a);
 
