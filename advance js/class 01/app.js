@@ -41,6 +41,19 @@ const a = 12;
 console.log(a);
 
 
+const obj = {
+    name:"faraz",
+    age:23,
+    email:"faraz@gmail.com"
+}
+
+// obj.age = 23;  
+
+obj = true;
+
+console.log(obj)
+
+
 // let
 // reinitialize (n)
 // reassign (y)
