@@ -4,6 +4,7 @@
 // hoisting (y)
 // blockscope (y)
 
+
 var a = "Mohammad";
 
 var abc;
