@@ -128,7 +128,6 @@ console.log(`Welcome to ${firstName} ${lastName}. I am a web developer`); // ES6
 
 
 
-
 // Task to generate multiplication table
 
 let user = +prompt("Enter a number to generate table");
