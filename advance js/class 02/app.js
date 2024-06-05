@@ -40,7 +40,7 @@ if (age >= 18) {
 }
 else {
     console.log("not allowed..")
-
+}
 
     let marks = 32;
 
