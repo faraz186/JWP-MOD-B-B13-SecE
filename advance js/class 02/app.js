@@ -640,7 +640,7 @@ var mobiles = {
   
         // Processor & Memory
         processor: "Snapdragon 9 Gen 4", // Replace with actual processor
-        rmemory: {
+        memory: {
             ram: 8,
             storage: 128,
           },
@@ -677,7 +677,7 @@ var mobiles = {
   
         // Processor & Memory
         processor: "Snapdragon 8 Gen 10", // Replace with actual processor
-        rmemory: {
+        memory: {
             ram: 4,
             storage: 64,
           },
