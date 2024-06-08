@@ -17,7 +17,7 @@ if (age >= 18) {
     }
     else {
         console.log("not allowed")
-    }
+    }   
 }
 else {
     console.log("age not match")
