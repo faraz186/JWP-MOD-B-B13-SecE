@@ -4,13 +4,9 @@ let age = 18;
 let gender = "female";
 
 
-let check = age >= 18 ?
+// Nested if statement through ternary operator
 
-    gender === "male" ?
-
-        "allowed" : "not allowed" :
-
-    "age not match";
+let check = age >= 18 ? gender === "male" ? "allowed" : "not allowed" : "age not match";
 
 console.log(check)
 
