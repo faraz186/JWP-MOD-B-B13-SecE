@@ -18,7 +18,7 @@ console.log(ele1,ele2,ele3,ele4,ele5,ele6)
 // let ele5 = arr[4];
 // let ele6 = arr[5];
 
-// console.log(arr)
+console.log(arr)
 
 // Destructing of Object
 
