@@ -2,11 +2,11 @@
 
 // ES6
 
-// let arr = [1,2,3,4,5,6,7,8,9];
+let arr = [1,2,3,4,5,6,7,8,9];
 
-// let [ele1,ele2,ele3,ele4,ele5,ele6] = arr
+let [ele1,ele2,ele3,ele4,ele5,ele6] = arr
 
-// console.log(ele1,ele2,ele3,ele4,ele5,ele6)
+console.log(ele1,ele2,ele3,ele4,ele5,ele6)
 
 
 // ES5
