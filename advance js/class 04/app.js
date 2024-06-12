@@ -1,5 +1,3 @@
-// var faraz;
-
 // Arrow Function  introduce in ES6 alternate of functions..
 
 // 1) function declaration
@@ -9,7 +7,6 @@ abc()
 function abc(){
     console.log("function declaration call...")
 }   
-
 
 
 
