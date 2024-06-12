@@ -30,7 +30,7 @@ let obj = {
         CGPA:3.8,
         skills:"html"
     }
-}
+} 
 
 let {name:stdName,email:stdEmail,city,education} = obj
 
