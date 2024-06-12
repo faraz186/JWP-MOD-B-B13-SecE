@@ -22,63 +22,62 @@ console.log(arr)
 
 // Destructing of Object
 
-// let obj = {
-//     name:"faraz",
-//     city:"karachi",
-//     email:"faraz@gmail.com",
-//     education:{
-//         CGPA:3.8,
-//         skills:"html"
-//     }
-// }
+let obj = {
+    name:"faraz",
+    city:"karachi",
+    email:"faraz@gmail.com",
+    education:{
+        CGPA:3.8,
+        skills:"html"
+    }
+}
 
-// let {name:stdName,email:stdEmail,city,education} = obj
+let {name:stdName,email:stdEmail,city,education} = obj
 
-// let {CGPA,skills} = education
-
-
-// console.log(stdName,stdEmail,city,education,CGPA,skills)
+let {CGPA,skills} = education
 
 
+console.log(stdName,stdEmail,city,education,CGPA,skills)
 
-// let arr = [1,2,3,4,5,6,7,8,9,{name:"Faraz",age:23}];
 
-// let [ele1,ele2,ele3,ele4,ele5,ele6,ele7,ele8,ele9,ele10] = arr
+let arr = [1,2,3,4,5,6,7,8,9,{name:"Faraz",age:23}];
 
-// let {name,age} = ele10
+let [ele1,ele2,ele3,ele4,ele5,ele6,ele7,ele8,ele9,ele10] = arr
 
-// console.log(ele1,ele2,ele3,ele4,ele5,ele6,ele7,ele8,ele9,ele10,name,age)
+let {name,age} = ele10
+
+console.log(ele1,ele2,ele3,ele4,ele5,ele6,ele7,ele8,ele9,ele10,name,age)
 
 
 // Pass by value
 
-// let num1 = true;
+let num1 = true;
 
-// let num2 = num1;
+let num2 = num1;
 
-// num2 = false
+num2 = false
 
-// console.log(num1,num2)
-
-
-// let num1 = ["faraz",100,false];
-
-// let num2 = num1;
-
-// num2[3] = "ali"
-
-// console.log(num1,num2)
+console.log(num1,num2)
 
 
-// let num1 = {
-//     name:"abc",
-//     email:"abc@gmail.com"
-// }
+let num1 = ["faraz",100,false];
 
-// let num2 = {
-//     ...num1
+let num2 = num1;
+
+num2[3] = "ali"
+
+console.log(num1,num2)
+
+
+let num1 = {
+    name:"abc",
+    email:"abc@gmail.com"
+}
+
+let num2 = {
+    ...num1
     
-// };
+};
 
 // num2.institute = "Jawan Pakistan";
 
