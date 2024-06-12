@@ -106,99 +106,101 @@ let merge = arr1.concat(arr2);
 console.log(arr2)
 
 
-// let arr1 = {
-//     name:"wxy",
-//    email:"wxy@gmail.com",
-//    institute:"JP"
-// };
+let arr1 = {
+    name:"wxy",
+   email:"wxy@gmail.com",
+   institute:"JP"
+};
 
-// let arr2 = {
-//     name:"xyz",
-//    email:"xyz@gmail.com"
-// }
+let arr2 = {
+    name:"xyz",
+   email:"xyz@gmail.com"
+}
 
-// let merge = {...arr1}
+let merge = {...arr1}
 
 
-// console.log(merge)
+console.log(merge)
 
 
 // PASS BY VALUE
 
-// let num1 = "faraz";
+let num1 = "faraz";
 
-// let num2 = num1;
+let num2 = num1;
 
-// num2 = false
+num2 = false
 
-// console.log(num1,num2)
+console.log(num1,num2)
 
 
 
 // PASS BY REFERENCE
 
-// let arr1 = ["faraz","farooq"];
+let arr1 = ["faraz","farooq"];
 
-// let arr2 = [...arr1];
+let arr2 = [...arr1];
 
-// arr2[2] = true
+arr2[2] = true
 
-// arr1[2] = false
+arr1[2] = false
 
-// console.log(arr1,arr2)
-
-
-// let StudentObj = {
-//     stdName:"faraz",
-//     stdAge:23,
-//     stdEmail:"faraz@gmail.com",
-//     stdRoll:1251
-// }
-
-// let obj2 = {...StudentObj};
-
-// obj2.stdCity = "karachi"
-
-// console.log(StudentObj,obj2)
-
-// let StudentObj = {
-//     stdName:"faraz",
-//     stdAge:23,
-//     stdEmail:"faraz@gmail.com",
-//     stdRoll:1251
-// }
-
-// let TeacherObj = {
-//     TName:"ali",
-//     TAge:25,
-//     TEmail:"ali@gmail.com",
-//     TRoll:124
-// }
-
-// let merge = {...StudentObj,...TeacherObj};
-
-// console.log(merge)
-
-// let arr1 = [1,2];
-
-// let arr2 = [3,4]
-
-// let merge = [...arr1,...arr2];
-
-// console.log(merge)
+console.log(arr1,arr2)
 
 
-// function foo(num1,num2,...rest){
-//     let restNumbers = 0;
-//     for(var i = 0;i<rest.length;i++){
-//         restNumbers += rest[i]
-//     }
-//     console.log(num1+ num2 +restNumbers)
+let StudentObj = {
+    stdName:"faraz",
+    stdAge:23,
+    stdEmail:"faraz@gmail.com",
+    stdRoll:1251
+}
+
+let obj2 = {...StudentObj};
+
+obj2.stdCity = "karachi"
+
+console.log(StudentObj,obj2)
+
+let StudentObj = {
+    stdName:"faraz",
+    stdAge:23,
+    stdEmail:"faraz@gmail.com",
+    stdRoll:1251
+}
+
+let TeacherObj = {
+    TName:"ali",
+    TAge:25,
+    TEmail:"ali@gmail.com",
+    TRoll:124
+}
+
+let merge = {...StudentObj,...TeacherObj};
+
+console.log(merge)
+
+let arr1 = [1,2];
+
+let arr2 = [3,4]
+
+let merge = [...arr1,...arr2];
+
+console.log(merge)
+
+// Reset operators
 
 
-// }
+function foo(num1,num2,...rest){
+    let restNumbers = 0;
+    for(var i = 0;i<rest.length;i++){
+        restNumbers += rest[i]
+    }
+    console.log(num1+ num2 +restNumbers)
 
-// foo(2,10,3,4,5,6,7,8,9,12,15,16,1456,1156,156,156,156,1,44,5614,861,861,61,56,156)
+
+}
+
+foo(2,10,3,4,5,6,7,8,9,12,15,16,1456,1156,156,156,156,1,44,5614,861,861,61,56,156)
 
 
 // default perameters
