@@ -79,32 +79,31 @@ let num2 = {
     
 };
 
-// num2.institute = "Jawan Pakistan";
+num2.institute = "Jawan Pakistan";
 
-// num2.getName = function(){
-//     console.log("method call..")
-// }
+num2.getName = function(){
+    console.log("method call..")
+}
 
-// console.log(num1,num2)
+console.log(num1,num2)
 
 // Spred Operators
 
 
-// let arr1 = ["faraz","farooq"];
+let arr1 = ["faraz","farooq"];
 
-// let arr2 = ["ali","ahmed"];
+let arr2 = ["ali","ahmed"];
 
-// let merge = [...arr1,...arr2]
+let merge = [...arr1,...arr2]
 
-// console.log(merge)
+console.log(merge)
 
-// for(var i = 0;i<arr1.length;i++){
-//     arr2.push(arr1[i])
-// }
-// let merge = arr1.concat(arr2);
+for(var i = 0;i<arr1.length;i++){
+    arr2.push(arr1[i])
+}
+let merge = arr1.concat(arr2);
 
-// console.log(arr2)
-
+console.log(arr2)
 
 
 // let arr1 = {
