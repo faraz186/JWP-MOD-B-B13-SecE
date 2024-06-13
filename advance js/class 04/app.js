@@ -21,7 +21,7 @@ const faraz = function(){
     console.log("anonymous function call...")
 
 }
-
+  
 
 // 3) arrow function /fat arrow function
 
