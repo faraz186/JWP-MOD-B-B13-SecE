@@ -14,7 +14,7 @@ function abc(){
 let abc = 12;
 
 
-
+  
 faraz()
 
 const faraz = function(){
