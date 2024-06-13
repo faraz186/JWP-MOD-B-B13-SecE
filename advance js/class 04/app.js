@@ -9,7 +9,6 @@ function abc(){
 }   
 
 
-
 // 2) function expression / anonymous function
 
 let abc = 12;
