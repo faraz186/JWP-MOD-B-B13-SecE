@@ -14,7 +14,7 @@ let arrobj = [
         p_name:"realme c53",
         p_img_src:'https://www.moosani.pk/images/product_gallery/1715602323_gold.webp'
     },
-    {
+    {  
         p_id:4,
         p_name:"iphone11",
         p_img_src:"https://regen.pk/cdn/shop/files/REGEN-iPhone11-Backfront-Purple-Pakistan.png?v=1684752662"
