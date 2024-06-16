@@ -2,7 +2,7 @@ let arrobj = [
     {
         p_id:1,
         p_name:"Samsung A2",
-        p_img_src:"https://images.priceoye.pk/samsung-galaxy-a2-core-pakistan-priceoye-jgy1e.jpg"
+        p_img_src:"https://images.priceoye.pk/samsung-galaxy-a2-core-pakistan-priceoye-jgy1e.jpg"   
     },
     {
         p_id:2,
