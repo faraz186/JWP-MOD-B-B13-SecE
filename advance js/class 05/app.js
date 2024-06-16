@@ -120,7 +120,7 @@ let input = document.getElementById('userValue');
 
 const getUserVal =()=>{
     
-    fetch(`--------------------------------------------------------------------------------`)
+    fetch(`--------------------------------------------------------------------------------`)  
     .then((response)=>response.json())
     
     .then((response)=>{
