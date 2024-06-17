@@ -60,7 +60,7 @@ console.log(obj)
 // reinitialize (n)
 // reassign (y)
 // hoisting (n)
-// blockscope (y)
+// blockscope (y)  
 
 
 let a = 12;
