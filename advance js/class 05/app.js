@@ -54,7 +54,7 @@ arrobj.map((e,i)=>{
 let data;
 
 let response = fetch('https://jsonplaceholder.typicode.com/users')
-.then((response)=>response.json())
+.then((response)=>response.json())  
 .then((response)=>data=response)
 .catch((err)=>console.log("err==>",err))
 
