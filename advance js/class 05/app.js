@@ -46,7 +46,7 @@ arrobj.map((e,i)=>{
 // post
 // update
 // delete
-
+  
 
 // https://jsonplaceholder.typicode.com/users
 
