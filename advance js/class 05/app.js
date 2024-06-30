@@ -9,7 +9,7 @@ let arrobj = [
         p_name:"infinix note 7",
         p_img_src:"https://images.priceoye.pk/infinix-note-7-pakistan-priceoye-j870u.jpg"
     },
-    {   
+    {     
         p_id:3,  
         p_name:"realme c53",
         p_img_src:'https://www.moosani.pk/images/product_gallery/1715602323_gold.webp'
