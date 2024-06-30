@@ -35,9 +35,8 @@ const App = ()=>{
 export default App
 
 
-// There are 3 ways to get style on html elements
+// There are 3 ways to get style on jsx elements
 
-
-
+// 1) Inline CSS
 // 2) Module CSS
-
+// 2) External CSS
