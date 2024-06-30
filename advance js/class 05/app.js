@@ -113,7 +113,6 @@ const data = async ()=>{
 data()
 
 
-
 // News Application
 
 let div = document.getElementById('box');
