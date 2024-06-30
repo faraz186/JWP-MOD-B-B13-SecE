@@ -70,7 +70,10 @@ console.log(data)
 // 2) Promise
 
 // 3) async await
-  promises, async await fetch method and news_app
+
+
+// promises, async await fetch method and news_app
+
 
 // promises
 
