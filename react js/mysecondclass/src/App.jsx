@@ -12,7 +12,7 @@ const App = ()=>{
     <>
 
     <h1 style={{color:"red",backgroundColor:"black"}}>Hello {username}</h1>
-
+   
     <h1 id="heading">Hello {username}</h1>
     <p>Lorem ipsum dolor sit amet.</p>
 
