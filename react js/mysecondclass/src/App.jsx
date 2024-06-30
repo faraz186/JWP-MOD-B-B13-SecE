@@ -5,29 +5,27 @@ import Card from "./Card/Card";
      
 const App = ()=>{
 
-  // let username = "faraz";
+  let username = "faraz";
    
-
 
   return(
     <>
 
-    {/* <h1 style={{color:"red",backgroundColor:"black"}}>Hello {username}</h1> */}
-{/* 
-    <h1 id="heading">Hello {username}</h1>
-    <p>Lorem ipsum dolor sit amet.</p> */}
+    <h1 style={{color:"red",backgroundColor:"black"}}>Hello {username}</h1>
 
-    {/* <Button /> */}
+    <h1 id="heading">Hello {username}</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <Button />
 
     <Card title="Card title 1" description="this is a card 1 info.."/>
     <Card title="Card title 2" description="this is a card 2 info.."/>
     <Card title="Card title 3" description="this is a card 3 info.."/>
 
 
-      <Button text="login"/>
-      <Button text="Signup"/>
-      <Button text="Logout"/>
-
+     <Button text="login"/>
+     <Button text="Signup"/>
+     <Button text="Logout"/>
 
 
     </>
