@@ -59,7 +59,7 @@ let response = fetch('https://jsonplaceholder.typicode.com/users')
 .catch((err)=>console.log("err==>",err))
 
 console.log(data)
-
+   
 
 //  code as in Synchronous and ASynchronous 
 
