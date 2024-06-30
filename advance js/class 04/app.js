@@ -15,7 +15,7 @@ let abc = 12;
 
 
   
-faraz()
+faraz()   
 
 const faraz = function(){
     console.log("anonymous function call...")
