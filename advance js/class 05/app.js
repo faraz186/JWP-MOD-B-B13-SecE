@@ -95,8 +95,6 @@ promise
 
 
 
-
-
 // Async await
 
 const data = async ()=>{
