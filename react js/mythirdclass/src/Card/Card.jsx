@@ -11,7 +11,7 @@ const Card = ({desc,title,imgSrc}) => {
         <p>{desc}</p>
     </div>
 
-  )
+  )   
 }
 
 export default Card
