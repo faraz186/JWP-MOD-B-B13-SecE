@@ -10,7 +10,7 @@ const Student = ({name,age,isStudent}) => {
         <h3>isStudent: {isStudent ? "true":"false"}</h3>
 
     </div>
-  )
+  )   
 }
 
 Student.propTypes={
