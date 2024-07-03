@@ -7,4 +7,3 @@ export const Button = (props)=>{
         <button>{props.btnText}</button>
     )
 }
-
