@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Student = ({name,age,isStudent}) => {
+const Student = ({name,age,isStudent}) => {  
   return (
     <div style={{border:"2px solid black",marginBottom:"20px",borderRadius:"5px"}}>
         <h1>Student Name: {name}</h1>
