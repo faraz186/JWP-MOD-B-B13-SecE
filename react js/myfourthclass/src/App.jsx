@@ -4,7 +4,6 @@ import BulbOff from './assets/bulboff.png';
 // import "./App.css";
 // import listItems from "./list";
 
-
 const App = () => {
 
   let [bulbOn,setBulbOn] = useState(true)
