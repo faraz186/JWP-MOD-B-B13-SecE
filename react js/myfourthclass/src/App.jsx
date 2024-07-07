@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import BulbOn from './assets/bulbon.jpg'
 import BulbOff from './assets/bulboff.png';
-// import "./App.css";
-// import listItems from "./list";
+import "./App.css";
+import listItems from "./list";
 
 const App = () => {
 
