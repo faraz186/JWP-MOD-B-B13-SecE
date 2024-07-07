@@ -40,13 +40,6 @@ const App = ()=>{
       <Card imgSrc={User3} title="Card 03" desc="This is a sample Card 3"/>
 
 
-{/*       <Card imgSrc={User1} title="Card 04" desc="This is a sample Card 4"/>
-
-      <Card imgSrc={User2} title="Card 05" desc="This is a sample Card 5"/> 
-
-      <Card imgSrc={User3} title="Card 06" desc="This is a sample Card 6"/> */}
-
-
         <Student name="faraz" age={23} isStudent={true}/>
 
         <Student name="hamza" age={21} isStudent={false}/>
