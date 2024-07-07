@@ -79,17 +79,17 @@ const App = () => {
       <button onClick={dec}>Decrement</button>
 
 
-      {/* <h1>{name}</h1> */}
+      <h1>{name}</h1> 
 
-      {/* <button onClick={update}>Update</button> */}
+       <button onClick={update}>Update</button>
 
-      {/* <h1 id="heading">{username}</h1> */}
+      <h1 id="heading">{username}</h1> 
 
-      {/* <button onClick={update} >Update</button> */}
+      <button onClick={update} >Update</button>
 
       {/* <h1>React Rendering List</h1> */}
 
-      {/* {
+      {
         listItems ?
       
          listItems.map((e,i)=>{
@@ -100,8 +100,7 @@ const App = () => {
 
         }):<h1>Data not found</h1>
 
-      } */}
-
+      }
 
     </div>
   );
