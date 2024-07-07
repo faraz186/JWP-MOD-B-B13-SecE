@@ -38,7 +38,9 @@ const App = () => {
   return (
 
     <div>
+      
         <h1>App</h1>
+      
       {
         isLoggedin ?
         <>
@@ -71,10 +73,10 @@ const App = () => {
       <button onClick={bulbOFF}>OFF</button>
 
 
-      {/* <h1>{number}</h1>
+      <h1>{number}</h1>
 
       <button onClick={inc}>Increment</button>
-      <button onClick={dec}>Decrement</button> */}
+      <button onClick={dec}>Decrement</button>
 
 
       {/* <h1>{name}</h1> */}
