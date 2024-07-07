@@ -22,19 +22,19 @@ const App = () => {
 
       const inc = ()=>{
         setNumber(++number)
-      // }
+      }
 
-      // const dec = ()=>{
-      //   setNumber(--number)
-      // }
+      const dec = ()=>{
+        setNumber(--number)
+      }
 
-      // const bulbON = ()=>{
-      //   setBulbOn(true)
-      // }
+      const bulbON = ()=>{
+        setBulbOn(true)
+      }
 
-      // const bulbOFF = ()=>{
-      //   setBulbOn(false)
-      // }
+      const bulbOFF = ()=>{
+        setBulbOn(false)
+      }
   return (
 
     <div>
