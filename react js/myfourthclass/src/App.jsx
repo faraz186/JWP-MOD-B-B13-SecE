@@ -10,18 +10,18 @@ const App = () => {
 
   let [isLoggedin,setIsLoggedin] = useState()
 
-  // let [number,setNumber] = useState(0)
+  let [number,setNumber] = useState(0)
 
 
-      // let [name,func] = useState("true");
-      // console.log(name)
+      let [name,func] = useState("true");
+      console.log(name)
 
-      // const update = ()=>{
-      //   func("false")
-      // }
+      const update = ()=>{
+        func("false")
+      }
 
-      // const inc = ()=>{
-      //   setNumber(++number)
+      const inc = ()=>{
+        setNumber(++number)
       // }
 
       // const dec = ()=>{
