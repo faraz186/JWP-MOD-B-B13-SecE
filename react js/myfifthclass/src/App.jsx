@@ -15,7 +15,7 @@ const App = () => {
 
     <div>
 
-      {
+      {   
         isloggedIn ?<Login clickFunc={toggle}/>:  <Signup clickFunc={toggle}/>
       }
 
