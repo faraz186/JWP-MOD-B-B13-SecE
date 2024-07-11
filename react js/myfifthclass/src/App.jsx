@@ -10,7 +10,7 @@ const App = () => {
    
   const toggle = ()=>{   
     setIsLoggedIn(!isloggedIn)
-  }
+  }   
   return (
 
     <div>
