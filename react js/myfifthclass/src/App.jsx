@@ -8,7 +8,7 @@ import { AiFillBell } from "react-icons/ai";
 const App = () => {
   const [isloggedIn,setIsLoggedIn] = useState(true)
    
-  const toggle = ()=>{
+  const toggle = ()=>{   
     setIsLoggedIn(!isloggedIn)
   }
   return (
