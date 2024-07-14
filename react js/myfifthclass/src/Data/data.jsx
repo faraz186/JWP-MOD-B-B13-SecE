@@ -2,7 +2,7 @@ const ProductData = [{
     id:"01",
     imgSrc:"https://static.vecteezy.com/system/resources/previews/027/312/306/non_2x/portrait-of-a-dj-with-headphone-isolated-essential-workers-avatar-icons-characters-for-social-media-and-networking-user-profile-website-and-app-3d-render-illustration-png.png",
     title:"Card title 01",
-    desc:"This is a sample text 1"
+    desc:"This is a sample text 1"  
 },
 {
     id:"02",
