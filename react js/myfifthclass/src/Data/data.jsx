@@ -23,7 +23,7 @@ const ProductData = [{
     id:"05",
     imgSrc:"https://static.vecteezy.com/system/resources/previews/027/312/306/non_2x/portrait-of-a-dj-with-headphone-isolated-essential-workers-avatar-icons-characters-for-social-media-and-networking-user-profile-website-and-app-3d-render-illustration-png.png",
     title:"Card title 05",
-    desc:"This is a sample text 5"   
+    desc:"This is a sample text 5"      
 },{
     id:"06",
     imgSrc:"https://static.vecteezy.com/system/resources/previews/027/312/306/non_2x/portrait-of-a-dj-with-headphone-isolated-essential-workers-avatar-icons-characters-for-social-media-and-networking-user-profile-website-and-app-3d-render-illustration-png.png",
