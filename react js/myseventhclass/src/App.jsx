@@ -5,7 +5,7 @@ import Login from "./Components/Login/Login";
 import Todo from "./Components/Todos/Todo";
 import Input from "./Components/Input.jsx/Input";
 
-const App = () => {
+const App = () => {   
   let [registration, setRegistration] = useState({
     firstName: "",
     lastName: "",
