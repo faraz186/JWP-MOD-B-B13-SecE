@@ -6,7 +6,7 @@ import Todo from "./Components/Todos/Todo";
 import Input from "./Components/Input.jsx/Input";   
 
 const App = () => {   
-  let [registration, setRegistration] = useState({
+  let [registration, setRegistration] = useState({   
     firstName: "",
     lastName: "",
     email: "",
