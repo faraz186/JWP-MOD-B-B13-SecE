@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Signup from "./Components/Signup/Signup";
 import Login from "./Components/Login/Login";  
 import Todo from "./Components/Todos/Todo";
-import Input from "./Components/Input.jsx/Input";
+import Input from "./Components/Input.jsx/Input";   
 
 const App = () => {   
   let [registration, setRegistration] = useState({
