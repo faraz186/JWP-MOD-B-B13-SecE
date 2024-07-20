@@ -119,7 +119,7 @@ const App = () => {
                           <td>{e.registration.age}</td>
                           <td>{e.registration.email}</td>
                         </tr>
-                      )
+                      )  
                     })
                   }
                 </tbody>
