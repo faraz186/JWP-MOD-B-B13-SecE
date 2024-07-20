@@ -1,7 +1,7 @@
 import React from 'react'
    
 const Input = ({label,type,onchange,value}) => {   
-  return (
+  return (   
     <div>   
         <label htmlFor="">{label}</label>
         <input type={type} 
