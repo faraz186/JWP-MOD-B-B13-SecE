@@ -12,7 +12,7 @@ const App = () => {
     email: "",
     password: "",
     age: 0,
-    occuption: "",   
+    occuption: "",      
   });   
 
   const [records,setRecords] = useState([])
