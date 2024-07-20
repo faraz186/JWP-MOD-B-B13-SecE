@@ -109,7 +109,7 @@ const App = () => {
                   </tr>
                 </thead>
 
-                <tbody>
+                <tbody>   
                   {
                     records.map((e,i)=>{
                       return(
