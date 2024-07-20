@@ -13,7 +13,7 @@ const App = () => {
     password: "",
     age: 0,
     occuption: "",
-  });
+  });   
 
   const [records,setRecords] = useState([])
 
