@@ -7,7 +7,7 @@ const Input = ({label,type,onchange,value}) => {
         <input type={type} 
         value={value} 
         onChange={onchange} />  
-    </div>
+    </div>  
   )
 }
 
