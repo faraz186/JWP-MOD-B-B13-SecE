@@ -93,6 +93,11 @@ const App = () => {
 
       <button onClick={handleSubmit}>Submit</button>
 
+
+
+
+{/*       Rendering data through tables */}
+
       
             <table>
                 <thead>
