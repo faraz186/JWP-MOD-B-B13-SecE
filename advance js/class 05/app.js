@@ -13,7 +13,7 @@ crrlet arrobj = [
         p_id:3,  
         p_name:"realme c53",   
         p_img_src:'https://www.moosani.pk/images/product_gallery/1715602323_gold.webp'
-    },
+    },   
     {  
         p_id:4,
         p_name:"iphone11",
