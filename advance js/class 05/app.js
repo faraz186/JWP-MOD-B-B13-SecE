@@ -18,7 +18,7 @@ crrlet arrobj = [
         p_id:4,
         p_name:"iphone11",
         p_img_src:"https://regen.pk/cdn/shop/files/REGEN-iPhone11-Backfront-Purple-Pakistan.png?v=1684752662"
-    },
+    },    
     {
         p_id:5,
         p_name:"qmobile",
