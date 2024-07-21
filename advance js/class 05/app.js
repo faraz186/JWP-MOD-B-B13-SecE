@@ -122,7 +122,7 @@ const getUserVal =()=>{
     
     fetch(`--------------------------------------------------------------------------------`)  
     .then((response)=>response.json())
-    
+       
     .then((response)=>{
         for(var i = 0;i<response.articles.length;i++){
             console.log(response.articles[i])
