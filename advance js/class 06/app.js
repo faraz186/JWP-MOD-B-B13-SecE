@@ -8,7 +8,7 @@
 //   showData.innerHTML = `<div class="spinner-grow text-danger" role="status">
 //   <span class="visually-hidden">Loading...</span>
 // </div>`;
-
+   
 //   const response = await fetch(API);
 
 //   const data = await response.json();
