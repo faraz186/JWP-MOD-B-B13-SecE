@@ -1,7 +1,7 @@
 // const API_KEY = "c0ef75261a97cb8945e927fb43a01d09";
 // const input = document.getElementById("searchInput");
 // const showData = document.getElementById("showData");
-           
+             
 // const searchWeather = async () => {
 //   const API = `https://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=${API_KEY}&units=metric`;
 
