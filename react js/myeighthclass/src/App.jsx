@@ -5,10 +5,13 @@ import ComboBox from "./components/AutoCompleteMUI";
 
 const App = () => {
   return (
+
+    
     <Box sx={{ height: "200px", width: "200px", border: "2px solid red" }}>
       <Button variant="contained"> Click me</Button>   
     </Box>
-   
+
+    
     <Stack   
       sx={{
         width: {
@@ -25,20 +28,24 @@ const App = () => {
         flexDirection: "row",
       }}
     >
-    //   <Box sx={{ backgroundColor: "aqua" }}>
-    //     <Typography>Box1</Typography>
-    //   </Box>
-    //   <Box sx={{ backgroundColor: "aqua" }}>
-    //     <Typography>Box2</Typography>
-    //   </Box>
-    //   <Box>
-    //     <WhatsAppIcon />
-    //   </Box>
 
-    //   <Box>
-    //     <ComboBox />
-    //   </Box>
-    // </Stack>
+  
+      <Box sx={{ backgroundColor: "aqua" }}>
+        <Typography>Box1</Typography>
+      </Box>
+      <Box sx={{ backgroundColor: "aqua" }}>
+        <Typography>Box2</Typography>
+      </Box>
+      <Box>
+        <WhatsAppIcon />
+      </Box>
+
+      <Box>
+        <ComboBox />
+      </Box>
+    </Stack>
+
+  
 
     <Grid container sx={{ height: 500 }} spacing={2}>
       <Grid item xs={12} sm={12} md={8} lg={6}>
