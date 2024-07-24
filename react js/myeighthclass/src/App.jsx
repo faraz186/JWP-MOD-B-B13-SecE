@@ -9,7 +9,7 @@ const App = () => {
       <Button variant="contained"> Click me</Button>
     </Box>
    
-    <Stack
+    <Stack   
       sx={{
         width: {
           sm: "100%",
