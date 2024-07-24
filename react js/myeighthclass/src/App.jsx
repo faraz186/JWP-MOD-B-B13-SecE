@@ -9,22 +9,22 @@ const App = () => {
       <Button variant="contained"> Click me</Button>
     </Box>
    
-    // <Stack
-    //   sx={{
-    //     width: {
-    //       sm: "100%",
-    //       md: "300px",
-    //       lg: "500px",
-    //     },
-    //     height: "200px",
-    //     border: {
-    //       sm: "2px solid red",
-    //       md: "2px solid blue",
-    //       lg: "2px solid green",
-    //     },
-    //     flexDirection: "row",
-    //   }}
-    // >
+    <Stack
+      sx={{
+        width: {
+          sm: "100%",
+          md: "300px",
+          lg: "500px",
+        },
+        height: "200px",
+        border: {
+          sm: "2px solid red",
+          md: "2px solid blue",
+          lg: "2px solid green",
+        },
+        flexDirection: "row",
+      }}
+    >
     //   <Box sx={{ backgroundColor: "aqua" }}>
     //     <Typography>Box1</Typography>
     //   </Box>
