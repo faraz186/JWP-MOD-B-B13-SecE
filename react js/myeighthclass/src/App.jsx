@@ -17,7 +17,7 @@ const App = () => {
           lg: "500px",
         },
         height: "200px",
-        border: {
+        border: {   
           sm: "2px solid red",
           md: "2px solid blue",
           lg: "2px solid green",
