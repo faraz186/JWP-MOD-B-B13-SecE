@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes } from "react-router-dom";   
    
 const App = () => {
-  return (
+  return (   
     <>
       <Routes>
         <Route path="/Home" element={<h1>Home Page</h1>} />      
