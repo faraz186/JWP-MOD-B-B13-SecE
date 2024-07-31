@@ -7,7 +7,7 @@ const User = () => {
   return (    
     <div>
       <h1>User Page</h1>   
-      <h3>Username: {key}</h3>   
+      <h3>Username: {key}</h3>      
     </div>
   );   
 };
