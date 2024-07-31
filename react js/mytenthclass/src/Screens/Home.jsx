@@ -9,7 +9,7 @@ const Home = () => {
 
       <p>   
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-        debitis!
+        debitis!    
       </p>
 
       <a href="">Google</a>
