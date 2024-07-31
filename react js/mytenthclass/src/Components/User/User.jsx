@@ -6,7 +6,7 @@ const User = () => {
   console.log(key);
   return (    
     <div>
-      <h1>User Page</h1>   
+      <h1>User Page</h1>      
       <h3>Username: {key}</h3>      
     </div>
   );   
