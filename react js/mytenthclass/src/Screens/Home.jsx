@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <h1>Home Page</h1>
 
-      <p>
+      <p>   
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
         debitis!
       </p>
