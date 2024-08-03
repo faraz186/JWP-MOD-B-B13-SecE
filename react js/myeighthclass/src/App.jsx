@@ -20,7 +20,7 @@ const App = () => {
         },   
         height: "200px",
         border: {   
-          sm: "2px solid red",
+          sm: "2px solid red",   
           md: "2px solid blue",
           lg: "2px solid green",
         },
