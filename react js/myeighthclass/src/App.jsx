@@ -7,7 +7,7 @@ const App = () => {
   return (
 
     <Box sx={{ height: "200px", width: "200px", border: "2px solid red" }}>
-      <Button variant="contained"> Click me</Button>   
+      <Button variant="contained"> Click me</Button>      
     </Box>
 
     
