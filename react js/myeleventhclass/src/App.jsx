@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Product from "./Screens/Product";
 import Home from "./Screens/Home";
 
-const App = () => {
+const App = () => {   
   return (
     <Routes>
       products
