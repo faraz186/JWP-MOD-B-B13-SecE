@@ -6,7 +6,7 @@ import Home from "./Screens/Home";
 const App = () => {   
   return (
     <Routes>
-      products
+      products   
       <Route index element={<Home />} />   
       <Route path="products/:id" element={<Product />} />        
     </Routes>    
