@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Dashboard = () => {
-  const [isToogle, setIsToogle] = useState(false);
+  const [isToogle, setIsToogle] = useState(false);   
   const [count, setCount] = useState(0);
 
   const func = () => {
