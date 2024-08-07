@@ -8,7 +8,7 @@ const Products = () => {
 
   const filterData = productData.filter((e, i) => {   
     return e.id == id;   
-  });
+  });   
 
   console.log(filterData);   
   return (
