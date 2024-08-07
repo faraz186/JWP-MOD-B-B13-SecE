@@ -12,7 +12,7 @@ const Products = () => {
 
   console.log(filterData);
   return (
-    <div>
+    <div> 
       <h1>Product Page</h1>
 
       {filterData.map((e, i) => {
