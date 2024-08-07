@@ -18,7 +18,7 @@ const Dashboard = () => {
 // Dependency array in state
 
 useEffect(() => {
-    func();
+    func();   
   },[isToogle]);
 
 
