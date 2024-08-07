@@ -10,7 +10,7 @@ const Products = () => {
     return e.id == id;
   });
 
-  console.log(filterData);
+  console.log(filterData);   
   return (
     <div> 
       <h1>Product Page</h1>
