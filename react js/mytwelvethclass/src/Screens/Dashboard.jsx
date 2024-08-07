@@ -11,7 +11,7 @@ const Dashboard = () => {
 // render all state update
    
 //   useEffect(() => {
-//     func();
+//     func();   
 //   });
    
    
