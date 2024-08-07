@@ -15,7 +15,7 @@ const Products = () => {
     <div> 
       <h1>Product Page</h1>
 
-      {filterData.map((e, i) => {
+      {filterData.map((e, i) => {   
         return (
           <div key={i}>
             <img src={e.image} alt="" />        
