@@ -18,7 +18,7 @@ const Products = () => {
       {filterData.map((e, i) => {
         return (
           <div key={i}>
-            <img src={e.image} alt="" />   
+            <img src={e.image} alt="" />     
             <h1>{e.title}</h1>
             <p>{e.description}</p>
           </div>   
