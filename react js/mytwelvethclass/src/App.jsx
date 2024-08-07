@@ -7,7 +7,7 @@ import Dashboard from "./Screens/Dashboard";
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />    
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="product/:id" element={<Products />} />
     </Routes>    
