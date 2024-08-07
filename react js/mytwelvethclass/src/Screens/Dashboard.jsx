@@ -5,7 +5,7 @@ const Dashboard = () => {
   const [count, setCount] = useState(0);
 
   const func = () => {
-    console.log("useeffect call...");
+    console.log("useEffect call...");
   };
 
 // render all state update
