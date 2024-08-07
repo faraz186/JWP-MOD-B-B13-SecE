@@ -27,13 +27,13 @@ useEffect(() => {
       <h1>Dashboard Page</h1>
 
       {count}
+      
       <br />
       <br />
 
       <button onClick={() => setCount(count + 1)}>Click Count</button>
 
       <br />
-
       <br />
 
       {isToogle ? "true" : "false"}
