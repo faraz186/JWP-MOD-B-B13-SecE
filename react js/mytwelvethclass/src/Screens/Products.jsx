@@ -6,7 +6,7 @@ const Products = () => {
   const { id } = useParams();
   console.log(id);   
 
-  const filterData = productData.filter((e, i) => {   
+  const filterData = productData.filter((e, i) => {      
     return e.id == id;   
   });   
 
