@@ -4,7 +4,7 @@ import { productData } from "../Data";
 
 const Products = () => {
   const { id } = useParams();
-  console.log(id);
+  console.log(id);   
 
   const filterData = productData.filter((e, i) => {   
     return e.id == id;   
