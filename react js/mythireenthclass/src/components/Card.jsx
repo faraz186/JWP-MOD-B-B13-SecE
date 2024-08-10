@@ -19,7 +19,7 @@ export default function Cards({ image, title, desc, id }) {
         <Typography variant="body2" color="text.secondary">
           {desc}
         </Typography>
-      </CardContent>
+      </CardContent>   
       <CardActions>
         <Button
           onClick={() => navigate(`/product/${id}`)}   
