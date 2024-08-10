@@ -18,7 +18,7 @@ export default function Cards({ image, title, desc, id }) {
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {desc}
-        </Typography>
+        </Typography>   
       </CardContent>   
       <CardActions>
         <Button
