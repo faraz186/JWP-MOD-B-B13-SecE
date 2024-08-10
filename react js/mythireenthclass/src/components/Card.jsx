@@ -23,7 +23,7 @@ export default function Cards({ image, title, desc, id }) {
       <CardActions>
         <Button
           onClick={() => navigate(`/product/${id}`)}   
-          variant="contained"
+          variant="contained"  
           color="primary"
           size="small"
         >
