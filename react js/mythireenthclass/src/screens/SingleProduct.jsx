@@ -7,7 +7,7 @@ const SingleProduct = () => {
   const [singleData, setSingleData] = useState([]);   
 
   useEffect(() => {
-    getSingleData();
+    getSingleData();   
   }, []);
 
   const getSingleData = async () => {
