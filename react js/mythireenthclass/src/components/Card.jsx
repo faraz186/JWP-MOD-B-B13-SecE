@@ -12,7 +12,7 @@ export default function Cards({ image, title, desc, id }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia sx={{ height: 140 }} image={image} title="green iguana" />
-      <CardContent>
+      <CardContent>   
         <Typography gutterBottom variant="h5" component="div">
           {title}
         </Typography>
