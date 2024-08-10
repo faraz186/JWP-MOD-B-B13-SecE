@@ -11,10 +11,7 @@ const SingleProduct = () => {
   }, []);
 
   const getSingleData = async () => {
-    const fetchData = 
-    await fetch(`https://fakestoreapi.com/
-        products/${id}`);
-
+    const fetchData = await fetch(`https://fakestoreapi.com/products/${id}`);
     const response = await fetchData.json();
 
     setSingleData([response]);
