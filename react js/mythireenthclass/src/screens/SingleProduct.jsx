@@ -24,7 +24,7 @@ const SingleProduct = () => {
           <div key={i}>
             <img src={e.image} alt="" />
             <h1>{e.title}</h1>
-            <h1>{e.description}</h1>
+            <h1>{e.description}</h1>   
           </div>
         );
       })}
