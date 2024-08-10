@@ -18,7 +18,7 @@ const SingleProduct = () => {
   };
 
   return (
-    <div>
+    <div>   
       {singleData?.map((e, i) => {
         return (
           <div key={i}>
