@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 import { useNavigate } from "react-router-dom";
 
 export default function Cards({ image, title, desc, id }) {
-  const navigate = useNavigate();
+  const navigate = useNavigate();   
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia sx={{ height: 140 }} image={image} title="green iguana" />
