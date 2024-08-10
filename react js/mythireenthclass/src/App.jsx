@@ -4,7 +4,7 @@ import Home from "./screens/Home";
 import SingleProduct from "./screens/SingleProduct";  
 
 const App = () => {
-  return (
+  return (   
     <Routes>
       <Route index element={<Home />} />
       <Route path="product/:id" element={<SingleProduct />} />
