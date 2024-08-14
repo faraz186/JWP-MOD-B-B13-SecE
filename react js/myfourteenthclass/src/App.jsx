@@ -6,7 +6,7 @@ import CreateUser from "./Screens/CreateUser";
 const App = () => {  
   return (
     <Routes>
-      <Route path="/" element={<Home />} />   
+      <Route path="/" element={<Home />} />     
       <Route path="createUser" element={<CreateUser />} />
     </Routes>  
   );
