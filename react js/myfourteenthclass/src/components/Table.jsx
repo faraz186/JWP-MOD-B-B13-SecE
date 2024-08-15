@@ -38,7 +38,7 @@ export default function Tables({ data }) {
           <TableRow>
             <StyledTableCell>Name</StyledTableCell>
             <StyledTableCell align="right">Email</StyledTableCell>
-            <StyledTableCell align="right">Username</StyledTableCell>
+            <StyledTableCell align="right">Username</StyledTableCell>   
             <StyledTableCell align="right">Phone</StyledTableCell>
             <StyledTableCell align="right">Actions</StyledTableCell>
           </TableRow>
