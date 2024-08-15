@@ -47,7 +47,7 @@ export default function Tables({ data }) {
           {data.map((e, i) => (
             <StyledTableRow key={e.id}>
               <StyledTableCell component="th" scope="row">
-                {e.name}
+                {e.name}   
               </StyledTableCell>
               <StyledTableCell align="right">{e.email}</StyledTableCell>
               <StyledTableCell align="right">{e.username}</StyledTableCell>
