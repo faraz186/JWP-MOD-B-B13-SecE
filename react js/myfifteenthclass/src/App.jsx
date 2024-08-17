@@ -5,7 +5,7 @@ import CreateUser from "./Screens/CreateUser";
 import EditUser from "./Screens/EditUser";
 
 const App = () => {
-  return (
+  return (  
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="createUser" element={<CreateUser />} />
