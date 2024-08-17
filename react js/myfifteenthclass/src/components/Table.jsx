@@ -66,7 +66,7 @@ export default function Tables({ data }) {
                 {e.id}
               </StyledTableCell>
               <StyledTableCell component="th" scope="row">
-                {e.name}
+                {e.name}   
               </StyledTableCell>
               <StyledTableCell align="right">{e.email}</StyledTableCell>
               <StyledTableCell align="right">{e.username}</StyledTableCell>
