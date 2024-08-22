@@ -56,7 +56,7 @@ const Signup = () => {
         placeholder="Enter Email"
       />
       <br />
-      <br />
+      <br />   
       <input
         onChange={(e) => setPassword(e.target.value)}
         type="text"
