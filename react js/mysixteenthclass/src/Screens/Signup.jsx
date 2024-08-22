@@ -18,7 +18,7 @@ const Signup = () => {
 
     let userObj = {
       name,
-      email,
+      email,   
       username,
     };
 
