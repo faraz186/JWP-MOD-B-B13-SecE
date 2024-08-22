@@ -14,7 +14,7 @@ const Signup = () => {
     console.log("name", name);
     console.log("email", email);  
     console.log("username", username);
-    console.log("password", password);
+    console.log("password", password);  
 
     let userObj = {
       name,
