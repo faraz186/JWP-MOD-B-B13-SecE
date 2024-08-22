@@ -10,7 +10,7 @@ const App = () => {
       <Route path="/dashboard" element={<h1>Dashboard Page</h1>} />
 
       <Route path="/signup" element={<Signup />} />
-    </Routes>
+    </Routes>  
   );
 };
 
