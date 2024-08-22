@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Login from "./Screens/Login";
 import Signup from "./Screens/Signup";
 
-const App = () => {
+const App = () => {   
   return (
     <Routes>
       <Route path="/" element={<Login />} />
