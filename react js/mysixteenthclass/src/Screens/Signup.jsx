@@ -24,7 +24,7 @@ const Signup = () => {
 
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
-        console.log("userCredential", userCredential);
+        console.log("userCredential", userCredential);  
         localStorage.setItem("userData", JSON.stringify(userObj));
         navigate("/");
       })
