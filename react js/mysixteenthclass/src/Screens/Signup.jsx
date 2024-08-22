@@ -32,7 +32,7 @@ const Signup = () => {
         console.log("err", err);
       });
   };
-  return (
+  return (  
     <div>
       <h1>Signup Page</h1>
 
