@@ -10,7 +10,7 @@ const Signup = () => {
   const [password, setPassword] = useState("");  
   const navigate = useNavigate();
 
-  const handleSignup = () => {
+  const handleSignup = () => {  
     console.log("name", name);
     console.log("email", email);  
     console.log("username", username);
