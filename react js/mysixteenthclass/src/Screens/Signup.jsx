@@ -12,7 +12,7 @@ const Signup = () => {
 
   const handleSignup = () => {
     console.log("name", name);
-    console.log("email", email);
+    console.log("email", email);  
     console.log("username", username);
     console.log("password", password);
 
