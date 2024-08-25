@@ -12,7 +12,7 @@ const App = () => {
 
       <Route path="/signup" element={<Signup />} />
     </Routes>
-  );
+  );   
 };
 
 export default App;
