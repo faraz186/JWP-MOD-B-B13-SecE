@@ -13,7 +13,7 @@ const firebaseConfig = {
   storageBucket: "jp-db-965f0.appspot.com",
   messagingSenderId: "1050242598931",
   appId: "1:1050242598931:web:bc07ed257ba0364e9557e6",
-};
+};   
    
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
