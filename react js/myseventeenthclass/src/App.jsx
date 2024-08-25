@@ -5,7 +5,7 @@ import Signup from "./Screens/Signup";
 import Dashboard from "./Screens/Dashboard";
 
 const App = () => {    
-  return (       
+  return (         
     <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
