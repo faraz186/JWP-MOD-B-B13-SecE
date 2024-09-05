@@ -10,10 +10,14 @@ const App = () => {
   return (
     <>
       <Routes>
+      {/* Protected Routes of login Signup */}
+        
         <Route element={<AuthRoute />}>
           <Route index element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
         </Route>
+
+         {/* Protected Routes of Dashboard screen */}
 
         <Route element={<ProtectedRoute />}>
           <Route path="/home" element={<Dashboard />} />
