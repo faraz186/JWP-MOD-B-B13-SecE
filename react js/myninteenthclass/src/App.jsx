@@ -5,7 +5,7 @@ import Login from "./Screens/Login";
 function App() {
   return (
     <>
-      <Routes>     
+      <Routes>        
         <Route path="/home" element={<CardSection />} />  
         <Route path="/" element={<Login />} />
       </Routes>   
