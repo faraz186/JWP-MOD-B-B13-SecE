@@ -16,7 +16,7 @@ const store = configureStore({
     reducer:{
         counterReducers,
         productReducers,
-        addToCartReducer:persistReducer(persistConfig,addToCartReducer),  
+        addToCartReducer:persistReducer(persistConfig,addToCartReducer),    
     }
 })
 
