@@ -4,7 +4,7 @@ import Cart from "./Components/Cart"
 
 function App() {   
 
-  return (
+  return (   
     <Routes>
       <Route index element={<Home />} />          
       <Route path="cart" element={<Cart />} />  
