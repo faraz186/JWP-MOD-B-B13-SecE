@@ -10,7 +10,7 @@ function App() {
       <Route path="cart" element={<Cart />} />
 
     </Routes>
-  )
+  )   
 }
 
 export default App
