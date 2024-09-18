@@ -13,7 +13,7 @@ const Cart = () => {
         <Header />
     <Grid container>   
       {isLoading ? <h1>Loading...</h1>:addtoCart.map((e,i)=>{
-          return(
+          return(   
               <Grid style={{marginTop:25}} key={i} item lg={3}>
                 <Cards removeCart={true} product={e} key={i} title={e.title}  desc={e.description} img={e.image}/>
                 </Grid>
