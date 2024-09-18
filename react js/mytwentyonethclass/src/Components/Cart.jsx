@@ -6,7 +6,7 @@ import Header from './Header';
 
 const Cart = () => {
     const {addtoCart,isLoading,isError} = useSelector(state=>state.addToCartReducer);      
-
+   
     console.log(addtoCart)
   return (
     <>   
