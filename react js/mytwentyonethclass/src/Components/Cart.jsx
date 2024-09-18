@@ -11,7 +11,7 @@ const Cart = () => {
   return (
     <>   
         <Header />
-    <Grid container>
+    <Grid container>   
       {isLoading ? <h1>Loading...</h1>:addtoCart.map((e,i)=>{
           return(
               <Grid style={{marginTop:25}} key={i} item lg={3}>
