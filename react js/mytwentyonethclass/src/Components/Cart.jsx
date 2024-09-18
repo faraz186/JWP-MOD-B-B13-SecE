@@ -9,7 +9,7 @@ const Cart = () => {
 
     console.log(addtoCart)
   return (
-    <>
+    <>   
         <Header />
     <Grid container>
       {isLoading ? <h1>Loading...</h1>:addtoCart.map((e,i)=>{
