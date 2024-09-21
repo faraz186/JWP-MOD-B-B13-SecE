@@ -1,5 +1,5 @@
 React Native is an open-source UI software framework created by Facebook. It was developed in 2012.                   
            
-		     Create native apps for Android, iOS, and more using React             
+		     Create native apps for Android, iOS, and more using React               
       
 React Native brings the best parts of developing with React to native development. It's a best-in-class JavaScript library for building user interfaces.  
