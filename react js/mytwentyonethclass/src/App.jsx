@@ -7,7 +7,7 @@ function App() {
   return (   
     <Routes>
       <Route index element={<Home />} />          
-      <Route path="cart" element={<Cart />} />  
+      <Route path="cart" element={<Cart />} />    
     </Routes>
   )   
 }
