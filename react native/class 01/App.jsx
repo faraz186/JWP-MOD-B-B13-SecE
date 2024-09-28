@@ -7,4 +7,4 @@ export default function App() {
       <Text>Hello World</Text>    
     </View>      
   )  
-}
+}  
