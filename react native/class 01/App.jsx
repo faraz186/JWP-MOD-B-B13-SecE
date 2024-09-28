@@ -6,5 +6,5 @@ export default function App() {
     <View>      
       <Text>Hello World</Text>    
     </View>      
-  )
+  )  
 }
