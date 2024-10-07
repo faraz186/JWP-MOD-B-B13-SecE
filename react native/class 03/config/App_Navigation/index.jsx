@@ -15,9 +15,7 @@ const App_Navigation = () => {
         initialRouteName='About'
         screenOptions={{
             // headerShown:false
-        }}
-        // headerShown={false}
-        >
+        }}>
             <Stack.Screen
             options={{
                 // headerShown:true,
