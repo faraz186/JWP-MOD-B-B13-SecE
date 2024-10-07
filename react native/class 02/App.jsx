@@ -1,7 +1,7 @@
 import { Image, Text, TouchableOpacity, View } from "react-native"
 import { Card } from "./components/Card"
 import { Styled_Component } from "./components/Styled_Component"
-import { Scrollview_Component } from "./components/Scrollview_Component"
+import { Scrollview_Component } from "./components/Scrollview_Component"  
 
 const App = () => {
   
