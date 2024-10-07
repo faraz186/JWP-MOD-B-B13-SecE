@@ -24,6 +24,7 @@ const App = () => {
     <Styled_Component />
 
     <Scrollview_Component />
+    
   </>
 }
 
