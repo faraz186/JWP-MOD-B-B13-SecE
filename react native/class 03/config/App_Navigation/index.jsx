@@ -30,7 +30,7 @@ const App_Navigation = () => {
 
             }}
             name='Home' component={Home} />
-            <Stack.Screen name='Contact' component={Contact} /> 
+            <Stack.Screen name='Contact' component={Contact} />  
             <Stack.Screen name='About' component={About} />
             <Stack.Screen name='Profile' component={Profile} />
         </Stack.Navigator>
