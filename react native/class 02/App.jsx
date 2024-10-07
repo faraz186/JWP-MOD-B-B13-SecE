@@ -6,7 +6,7 @@ import { Scrollview_Component } from "./components/Scrollview_Component"
 const App = () => {
   
   const press_handle = () => {
-    console.log('clicked...!')
+    console.log('clicked...!');
   }
   
   return <> 
