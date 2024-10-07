@@ -9,7 +9,7 @@ const App = () => {
 export default App  
 
 // cd  android 
-//  gradlew clean
+//  gradlew clean  
 // cd  ..
 
 //  cd android && gradlew clean && cd ..
