@@ -22,8 +22,6 @@ const App_Navigation = () => {
                 headerTitle:'Home Screen',
                 headerStyle:{
                     backgroundColor:'red'
-
-                    
                 },       
                 headerTitleStyle:{
                     color:'white'
@@ -37,7 +35,6 @@ const App_Navigation = () => {
             <Stack.Screen name='Profile' component={Profile} />
         </Stack.Navigator>
     </NavigationContainer>
-    
   )
 }
 
