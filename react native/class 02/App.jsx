@@ -16,7 +16,7 @@ const App = () => {
     <Text>Hello World! </Text>
     
     <TouchableOpacity onPress={press_handle}>
-      <Text>Click here</Text>
+      <Text>Click Me</Text>
     </TouchableOpacity>
 
     <Card />
