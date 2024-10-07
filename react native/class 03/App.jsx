@@ -5,6 +5,6 @@ const App = () => {
   return (
    <App_Navigation />
   )  
-}
+}  
 
 export default App
