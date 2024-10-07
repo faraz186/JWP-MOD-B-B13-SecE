@@ -18,7 +18,7 @@ const App_Navigation = () => {
         }}>
             <Stack.Screen
             options={{
-                // headerShown:true,
+                headerShown:true,
                 headerTitle:'Home Screen',
                 headerStyle:{
                     backgroundColor:'red'
