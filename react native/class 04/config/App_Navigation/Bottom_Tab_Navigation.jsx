@@ -12,7 +12,7 @@ const Tab = createBottomTabNavigator();
 
 const Bottom_Tab_Navigation = () => {
   return (    
-   <Tab.Navigator
+   <Tab.Navigator  
    initialRouteName='Profile'
    
    screenOptions={{
