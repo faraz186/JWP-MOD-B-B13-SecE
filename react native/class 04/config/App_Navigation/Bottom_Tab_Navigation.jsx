@@ -11,7 +11,7 @@ import Contact from '../../Screens/Contact';
 const Tab = createBottomTabNavigator();
 
 const Bottom_Tab_Navigation = () => {
-  return (  
+  return (    
    <Tab.Navigator
    initialRouteName='Profile'
    
