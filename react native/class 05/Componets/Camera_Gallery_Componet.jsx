@@ -1,4 +1,4 @@
-import {View, Text, TouchableOpacity, Image} from 'react-native';   
+import {View, Text, TouchableOpacity, Image} from 'react-native';     
 import React, {useState} from 'react';     
 import {launchCamera} from 'react-native-image-picker';  
 
