@@ -6,7 +6,7 @@ const Image_Picker = () => {
   const [captureImage, setCaptureImage] = useState('');
 
   const open_Camera = async () => {  
-    const result = await launchCamera({mediaType: 'photo', selectionLimit: 3});
+    const result = await launchCamera({mediaType: 'photo', selectionLimit: 3});  
     console.log(result);
   
     if (result) {  
