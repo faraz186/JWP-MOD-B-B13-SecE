@@ -10,7 +10,7 @@ const Image_Picker = () => {
     console.log(result);  
   
     if (result) {  
-      const img_Src = result.assets[0].uri;  
+      const img_Src = result.assets[0].uri;    
       setCaptureImage(img_Src);       
     }
   };    
