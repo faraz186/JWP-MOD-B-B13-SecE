@@ -25,7 +25,7 @@ const Image_Picker = () => {
       }}>
       <View>
         {captureImage ? (
-          <Image
+          <Image  
             source={{uri: captureImage}}
             width={200}
             height={200}
