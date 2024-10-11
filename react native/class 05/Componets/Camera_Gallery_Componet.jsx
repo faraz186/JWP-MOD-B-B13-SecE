@@ -50,7 +50,7 @@ const Image_Picker = () => {
             fontWeight: 'bold',
           }}>
           Open Camera
-        </Text>
+        </Text>  
       </TouchableOpacity>
 
       <TouchableOpacity
