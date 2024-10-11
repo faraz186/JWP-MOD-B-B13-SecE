@@ -13,7 +13,7 @@ const Image_Picker = () => {
       const img_Src = result.assets[0].uri;  
       setCaptureImage(img_Src);
     }
-  };
+  };  
 
   return (
     <View
