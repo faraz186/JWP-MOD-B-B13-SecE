@@ -11,7 +11,7 @@ const Image_Picker = () => {
   
     if (result) {  
       const img_Src = result.assets[0].uri;  
-      setCaptureImage(img_Src);  
+      setCaptureImage(img_Src);   
     }
   };  
 
