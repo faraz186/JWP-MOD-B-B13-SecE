@@ -32,7 +32,7 @@ const Image_Picker = () => {
             resizeMode="cover"
           />
         ) : null}
-      </View>  
+      </View>    
 
       <TouchableOpacity  
         onPress={open_Camera}
