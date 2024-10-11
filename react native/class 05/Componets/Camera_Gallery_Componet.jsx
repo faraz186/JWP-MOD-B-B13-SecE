@@ -8,7 +8,7 @@ const Image_Picker = () => {
   const open_Camera = async () => {  
     const result = await launchCamera({mediaType: 'photo', selectionLimit: 3});
     console.log(result);
-
+  
     if (result) {  
       const img_Src = result.assets[0].uri;  
       setCaptureImage(img_Src);
