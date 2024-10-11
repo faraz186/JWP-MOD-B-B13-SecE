@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import {launchCamera} from 'react-native-image-picker';  
 
 const Image_Picker = () => {
-  const [captureImage, setCaptureImage] = useState('');
+  const [captureImage, setCaptureImage] = useState('');  
 
   const open_Camera = async () => {  
     const result = await launchCamera({mediaType: 'photo', selectionLimit: 3});  
