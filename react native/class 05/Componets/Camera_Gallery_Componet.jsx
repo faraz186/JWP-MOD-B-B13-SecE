@@ -2,7 +2,7 @@ import {View, Text, TouchableOpacity, Image} from 'react-native';
 import React, {useState} from 'react';       
 import {launchCamera} from 'react-native-image-picker';  
 
-const Image_Picker = () => {
+const Image_Picker = () => {  
   const [captureImage, setCaptureImage] = useState('');  
 
   const open_Camera = async () => {  
