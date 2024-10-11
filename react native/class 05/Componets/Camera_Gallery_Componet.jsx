@@ -34,7 +34,7 @@ const Image_Picker = () => {
         ) : null}
       </View>  
 
-      <TouchableOpacity
+      <TouchableOpacity  
         onPress={open_Camera}
         style={{
           backgroundColor: 'grey',
