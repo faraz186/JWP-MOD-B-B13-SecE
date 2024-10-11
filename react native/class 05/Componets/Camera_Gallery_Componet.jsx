@@ -14,7 +14,7 @@ const Image_Picker = () => {
       setCaptureImage(img_Src);   
     }
   };    
-
+  
   return (
     <View
       style={{
