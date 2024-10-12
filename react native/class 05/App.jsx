@@ -4,7 +4,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign'
 import { Async_Storage_Component } from './Componets/Async_Storage_Component'
 import { Camera_Gallery_Component } from './Componets/Camera_Gallery_Componet'      
 
- const App = () => {
+ const App = () => {  
   return 
   <>  
    
