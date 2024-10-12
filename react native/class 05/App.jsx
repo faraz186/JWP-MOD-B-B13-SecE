@@ -1,4 +1,3 @@
-
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { Text, TouchableOpacity } from 'react-native'
 import AntDesign from 'react-native-vector-icons/AntDesign'
