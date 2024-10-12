@@ -10,7 +10,7 @@ import { Camera_Gallery_Component } from './Componets/Camera_Gallery_Componet'
    
 {/*   <Async_Storage_Component /> */}
   
-  <Camera_Gallery_Component />
+  <Camera_Gallery_Component />  
   </>
  }
 
