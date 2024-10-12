@@ -12,8 +12,7 @@ import { Camera_Gallery_Component } from './Componets/Camera_Gallery_Componet'
   <Camera_Gallery_Component />
   </>
 
-  
-
+ 
  }
 
 export default App
