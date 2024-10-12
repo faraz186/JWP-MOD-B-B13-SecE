@@ -8,7 +8,7 @@ import { Camera_Gallery_Component } from './Componets/Camera_Gallery_Componet'
   return 
   <>  
    
-{/*   <Async_Storage_Component /> */}
+{/*   <Async_Storage_Component /> */}  
   
   <Camera_Gallery_Component />  
   </>
