@@ -5,9 +5,10 @@ import { Async_Storage_Component } from './Componets/Async_Storage_Component'
 import { Camera_Gallery_Component } from './Componets/Camera_Gallery_Componet'    
 
  const App = () => {
-
-  return <>  
-  <Async_Storage_Component />
+  return 
+  <>  
+   
+{/*   <Async_Storage_Component /> */}
   
   <Camera_Gallery_Component />
   </>
