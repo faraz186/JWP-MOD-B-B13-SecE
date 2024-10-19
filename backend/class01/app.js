@@ -16,17 +16,22 @@ app.get("/users", (request, response) => {
   });  
 });
 
+
 app.get("/foods", (request, response) => {  
   response.send("foods data");  
 });
+
 
 app.get("/client", (request, response) => {
   response.send("client data");
 });
 
+
 app.get("/", (request, response) => {
   response.send("server running on /");
 });
+
+// create Server using express
 
 app.listen(5000, () => {
   console.log("SERVER RUNNING..");
