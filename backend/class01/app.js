@@ -12,7 +12,7 @@ app.get("/users", (request, response) => {
   response.send({  
     name: "faraz",
     email: "faraz@gmail.com",
-    phone: "1111136111",  
+    phone: "031464464351",  
   });  
 });
 
