@@ -17,7 +17,7 @@ app.get("/users", (request, response) => {
 });
 
 app.get("/foods", (request, response) => {  
-  response.send("foods data");
+  response.send("foods data");  
 });
 
 app.get("/client", (request, response) => {
