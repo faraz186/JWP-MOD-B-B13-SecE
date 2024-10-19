@@ -1,6 +1,6 @@
 import express from "express";
 import { data } from "./data.js";  
-const app = express();
+const app = express();  
 
 // PORT
 
