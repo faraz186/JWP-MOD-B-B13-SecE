@@ -5,7 +5,7 @@ const app = express();
 // PORT
 
 app.get("/products", (request, response) => {
-  response.send(data);
+  response.send(data);  
 });
 
 app.get("/users", (request, response) => {
