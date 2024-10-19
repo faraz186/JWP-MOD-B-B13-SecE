@@ -14,7 +14,7 @@ app.get("/users", (request, response) => {
     email: "faraz@gmail.com",
     phone: "031464464351",  
   });  
-});
+});   
 
 
 app.get("/foods", (request, response) => {  
