@@ -13,7 +13,7 @@ app.get("/users", (request, response) => {
     name: "faraz",
     email: "faraz@gmail.com",
     phone: "1111136111",
-  });
+  });  
 });
 
 app.get("/foods", (request, response) => {
