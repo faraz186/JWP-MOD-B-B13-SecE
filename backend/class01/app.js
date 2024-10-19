@@ -9,7 +9,7 @@ app.get("/products", (request, response) => {
 });
 
 app.get("/users", (request, response) => {
-  response.send({
+  response.send({  
     name: "faraz",
     email: "faraz@gmail.com",
     phone: "1111136111",  
