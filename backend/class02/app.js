@@ -20,6 +20,8 @@ mongoose.connection.on("connected", () => console.log("MongoDB Connected"));
 
 mongoose.connection.on("error", (err) => console.log("MongoDB Error", err));
 
+
+
 app.get("/", (req, res) => {
   res.send("server start");
 });
