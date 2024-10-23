@@ -9,7 +9,7 @@ const PORT = 5000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));   
-
+   
 // mongodb configuration
 
 const DBURI = "mongodb+srv://admin:admin@cluster0.8t9bn.mongodb.net/";  
