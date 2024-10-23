@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // mongodb configuration
 
-const DBURI = "mongodb+srv://admin:admin@cluster0.8t9bn.mongodb.net/";
+const DBURI = "mongodb+srv://admin:admin@cluster0.8t9bn.mongodb.net/";  
 
 mongoose.connect(DBURI);
 
