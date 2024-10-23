@@ -32,6 +32,7 @@ app.get("/products", (req, res) => {
   res.send(data);
 });
 
+
 // Single Product get method
 
 app.get("/products/:id", (req, res) => {
@@ -41,6 +42,7 @@ app.get("/products/:id", (req, res) => {
 
   res.send(filterData);
 });
+
 
 // All in One APi
 
