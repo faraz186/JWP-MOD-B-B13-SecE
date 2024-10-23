@@ -7,7 +7,7 @@ const PORT = 5000;
 
 // MiddleWares  
 
-app.use(express.json());
+app.use(express.json());   
 app.use(express.urlencoded({ extended: true }));  
    
 // mongodb configuration
