@@ -2,7 +2,7 @@ import express from "express";
 import { data } from "./data.js";
 import chalk from "chalk";
 import mongoose from "mongoose";      
-const app = express();
+const app = express();  
 const PORT = 5000;  
   
 // MiddleWares  
