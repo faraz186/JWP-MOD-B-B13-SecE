@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 mongoose.connect(DBURI);
-
+  
 mongoose.connection.on("connected", () => console.log("mongodb connected"));
 
 mongoose.connection.on("error", (err) => console.log(err));
