@@ -8,7 +8,7 @@ const DBURI = "mongodb+srv://admin:admin@cluster0.rnpcr.mongodb.net/";
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-mongoose.connect(DBURI);
+mongoose.connect(DBURI);  
   
 mongoose.connection.on("connected", () => console.log("mongodb connected"));
 
