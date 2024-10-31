@@ -55,7 +55,12 @@ app.post("/createpost", async (req, res) => {
 // post get
 app.get("/getpost", async (req, res) => {
   const getData =
+    // await postModel.findById({ _id: "1113d11as31asf3as1f" });
+  
     // await postModel.findByIdAndUpdate({ title: "POST 1" });
+  
+    // await postModel.findOne({ title: "POST 1" });
+  
     await postModel.find({});
 
   res.json({
