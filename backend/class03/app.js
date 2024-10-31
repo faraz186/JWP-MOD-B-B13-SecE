@@ -52,6 +52,7 @@ app.post("/createpost", async (req, res) => {
   res.send("create post");
 });
 
+
 // post get
 app.get("/getpost", async (req, res) => {
   const getData =
@@ -70,11 +71,14 @@ app.get("/getpost", async (req, res) => {
   res.send("get post");
 });
 
+
 // post update
 app.put("/updatepost", () => {});
 
+
 // post delete
 app.delete("/deletepost", () => {});
+
 
 app.listen(PORT, () => {
   console.log(`server is running on http:localhost:${PORT}`);
