@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
     message: "server up...",
     status: true,  
   });
-});
+});  
 
 // create post api's
 
