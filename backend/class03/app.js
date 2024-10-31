@@ -16,7 +16,7 @@ mongoose.connection.on("error", (err) => console.log(err));
 
 app.get("/", (req, res) => {
   res.json({
-    message: "server up...",
+    message: "server up...",  
     status: true,  
   });
 });  
