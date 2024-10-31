@@ -8,7 +8,7 @@ import cors from "cors";
 const app = express();
 const PORT = 8080;
 const DBURI = "";  
-
+  
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
