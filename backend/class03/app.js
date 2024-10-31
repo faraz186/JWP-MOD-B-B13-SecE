@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import postModel from "./models/postSchema.js";
-const app = express();
+const app = express();  
 const PORT = 8080;
 const DBURI = "mongodb+srv://admin:admin@cluster0.rnpcr.mongodb.net/";
 
