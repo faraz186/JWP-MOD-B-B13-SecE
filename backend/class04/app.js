@@ -30,33 +30,34 @@ app.get("/", (req, res) => {
 // create post api's
 
 // post create
-// app.post("/createpost", async (req, res) => {
-//   const { title, desc, postId } = req.body;
 
-//   if (!title || !desc || !postId) {
-//     res.json({
-//       message: "required fields are missing",
-//     });
-//     return;
-//   }
+app.post("/createpost", async (req, res) => {
+  const { title, desc, postId } = req.body;
 
-//   //  data save in DB
+  if (!title || !desc || !postId) {
+    res.json({
+      message: "required fields are missing",
+    });
+    return;
+  }
 
-//   const postObj = {
-//     title,
-//     desc,
-//     postId,
-//   };
+  //  data save in DB
 
-//   const response = await postModel.create(postObj);
+  const postObj = {
+    title,
+    desc,
+    postId,
+  };
 
-//   res.json({
-//     message: "post create successfully",
-//     data: response,
-//   });
+  const response = await postModel.create(postObj);
 
-//   res.send("create post");
-// });
+  res.json({
+    message: "post create successfully",
+    data: response,
+  });
+
+  res.send("create post");
+});
 
 // post get
 // app.get("/getpost", async (req, res) => {
