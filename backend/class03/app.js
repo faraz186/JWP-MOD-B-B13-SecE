@@ -1,5 +1,5 @@
 import express from "express";
-import mongoose from "mongoose";
+import mongoose from "mongoose";  
 import postModel from "./models/postSchema.js";
 const app = express();  
 const PORT = 8080;
