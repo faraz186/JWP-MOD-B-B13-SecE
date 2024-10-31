@@ -60,41 +60,42 @@ app.post("/createpost", async (req, res) => {
 });
 
 // post get
-// app.get("/getpost", async (req, res) => {
-//   const getData =
-//     // await postModel.findByIdAndUpdate({ title: "POST 1" });
-//     await postModel.find({});
+app.get("/getpost", async (req, res) => {
+  const getData =
+    // await postModel.findByIdAndUpdate({ title: "POST 1" });
+    await postModel.find({});
 
-//   res.json({
-//     message: "post data get successful..",
-//     data: getData,
-//   });
-//   res.send("get post");
-// });
+  res.json({
+    message: "post data get successful..",
+    data: getData,
+  });
+  res.send("get post");
+});
 
 // post update
-// app.put("/updatepost", async (req, res) => {
-//   const { title, desc, postId } = req.body;
-//   console.log(title, desc, postId);
+app.put("/updatepost", async (req, res) => {
+  const { title, desc, postId } = req.body;
+  console.log(title, desc, postId);
 
-//   const updatePost = await postModel.findByIdAndUpdate(postId, { title, desc });
+  const updatePost = await postModel.findByIdAndUpdate(postId, { title, desc });
 
-//   res.json({
-//     message: "post has been updated",
-//     data: updatePost,
-//   });
-// });
+  res.json({
+    message: "post has been updated",
+    data: updatePost,
+  });
+});
 
 // post delete
-// app.delete("/deletepost/:id", async (req, res) => {
-//   const params = req.params.id;
 
-//   await postModel.findByIdAndDelete(params);
+app.delete("/deletepost/:id", async (req, res) => {
+  const params = req.params.id;
 
-//   res.json({
-//     message: "delete post",
-//   });
-// });
+  await postModel.findByIdAndDelete(params);
+
+  res.json({
+    message: "delete post",
+  });
+});
 
 // ----------------------------------------------------------
 
