@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
   
 app.use(cors());
 
-mongoose.connect(DBURI);  
+mongoose.connect(DBURI);    
 
 mongoose.connection.on("connected", () => console.log("mongodb connected"));
 
