@@ -4,7 +4,7 @@ import postModel from "./models/postSchema.js";
 import userModel from "./models/userSchema.js";    
 import bcrypt from "bcryptjs";
 import cors from "cors";  
-
+  
 const app = express();
 const PORT = 8080;     
 const DBURI = "";  
