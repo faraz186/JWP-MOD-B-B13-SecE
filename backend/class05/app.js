@@ -51,7 +51,7 @@ app.post("/api/signup", async (req, res) => {
   if (emailExist !== null) {
     res.json({
       message: "email already been registered",
-      status: false,
+      status: false,  
     });
 
     return;
