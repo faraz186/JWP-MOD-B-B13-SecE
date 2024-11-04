@@ -77,7 +77,7 @@ app.post("/api/signup", async (req, res) => {
     status: true,
   });
 
-  res.send("signup api");
+  res.send("signup api");  
 });
 
 // Login Api
