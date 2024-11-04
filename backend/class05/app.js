@@ -1,7 +1,7 @@
 import "dotenv/config";  
 import express from "express";  
 import mongoose from "mongoose";
-import postModel from "./models/postSchema.js";  
+import postModel from "./models/postSchema.js";    
 import userModel from "./models/userSchema.js";       
 import bcrypt from "bcryptjs";    
 import cors from "cors";    
