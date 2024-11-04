@@ -5,7 +5,7 @@ import postModel from "./models/postSchema.js";
 import userModel from "./models/userSchema.js";       
 import bcrypt from "bcryptjs";    
 import cors from "cors";    
-import jwt from "jsonwebtoken";    
+import jwt from "jsonwebtoken";      
 import userVerifyMiddle from "./middleware/userVerify.js";  
 
 const app = express();
