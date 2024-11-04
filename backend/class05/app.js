@@ -44,7 +44,7 @@ app.post("/api/signup", async (req, res) => {
     return;
   }
 
-  const emailExist = await userModel.findOne({ email });
+  const emailExist = await userModel.findOne({ email });  
 
   console.log("emailExist", emailExist);
 
