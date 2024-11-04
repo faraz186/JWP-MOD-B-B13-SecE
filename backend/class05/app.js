@@ -15,7 +15,7 @@ const DBURI = process.env.MONGODB_URI;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));  
 
-app.use(cors());
+app.use(cors());  
 
 mongoose.connect(DBURI);  
 
