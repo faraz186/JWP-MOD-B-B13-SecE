@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
   res.json({
     message: "server up...",
     status: true,
-  });
+  });  
 });
 
 // create post api's
