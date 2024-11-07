@@ -1,5 +1,5 @@
 import "dotenv/config";
-import express from "express";
+import express from "express";  
 import mongoose from "mongoose";    
 import postModel from "./models/postSchema.js";
 import userModel from "./models/userSchema.js";      
