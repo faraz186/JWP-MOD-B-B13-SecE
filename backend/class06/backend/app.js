@@ -8,7 +8,7 @@ import cors from "cors";
 import jwt from "jsonwebtoken";    
 import userVerifyMiddle from "./middleware/userVerify.js";    
   
-const app = express();
+const app = express();   
 const PORT = process.env.PORT;      
 const DBURI = process.env.MONGODB_URI;  
 
