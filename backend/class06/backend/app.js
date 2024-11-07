@@ -19,7 +19,7 @@ app.use(cors());
 
 mongoose.connect(DBURI);
   
-mongoose.connection.on("connected", () => console.log("mongodb connected"));
+mongoose.connection.on("connected", () => console.log("mongodb connected"));  
 
 mongoose.connection.on("error", (err) => console.log(err));
 
