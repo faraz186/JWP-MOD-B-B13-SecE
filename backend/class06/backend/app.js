@@ -6,7 +6,7 @@ import userModel from "./models/userSchema.js";
 import bcrypt from "bcryptjs";  
 import cors from "cors";  
 import jwt from "jsonwebtoken";    
-import userVerifyMiddle from "./middleware/userVerify.js";  
+import userVerifyMiddle from "./middleware/userVerify.js";    
   
 const app = express();
 const PORT = process.env.PORT;      
