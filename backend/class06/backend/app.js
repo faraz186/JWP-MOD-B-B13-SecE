@@ -9,7 +9,7 @@ import jwt from "jsonwebtoken";
 import userVerifyMiddle from "./middleware/userVerify.js";  
   
 const app = express();
-const PORT = process.env.PORT;    
+const PORT = process.env.PORT;      
 const DBURI = process.env.MONGODB_URI;  
 
 app.use(express.json());  
