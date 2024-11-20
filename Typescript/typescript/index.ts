@@ -1,22 +1,22 @@
-// console.log("Learning Typescript!!");
+console.log("Learning Typescript!!");
 
-// var num = 10;
+var num = 10;
 
-// console.log(num);
+console.log(num);
 
-// var firstName: string = "faraz";
+var firstName: string = "faraz";
 
-// var percentage: number = 85;
+var percentage: number = 85;
 
-// console.log(firstName, percentage);
+console.log(firstName, percentage);
 
-// var bioData: number | string | boolean = 41;
+var bioData: number | string | boolean = 41;
 
-// var abc: number | string = "faraz";
+var abc: number | string = "faraz";
 
-// abc = "true";
+abc = "true";
 
-// var age: string | number = 20;
+var age: string | number = 20;
 
 // if (age === 20) {
 //   console.log("allow");
