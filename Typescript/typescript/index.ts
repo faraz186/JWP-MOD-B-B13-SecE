@@ -18,19 +18,19 @@ abc = "true";
 
 var age: string | number = 20;
 
-// if (age === 20) {
-//   console.log("allow");
-// } else {
-//   console.log("not allow");
-// }
+if (age === 20) {
+  console.log("allow");
+} else {
+  console.log("not allow");
+}
 
-// var arr: (string | number | boolean)[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+var arr: (string | number | boolean)[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-// arr.push("faraz");
+arr.push("faraz");
 
-// arr.unshift(true);
+arr.unshift(true);
 
-// console.log(arr);
+console.log(arr);
 
 // Function
 
@@ -39,6 +39,7 @@ function abc(name: string, num?: number) {
 }
 
 abc("faraz");
+
 
 // Object
 
