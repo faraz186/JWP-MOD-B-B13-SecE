@@ -13,7 +13,7 @@ console.log(firstName, percentage);
 var bioData: number | string | boolean = 41;     
   
 var abc: number | string = "faraz";  
-     
+        
 abc = "true";
 
 var age: string | number = 20;
