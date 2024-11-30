@@ -2,7 +2,7 @@ console.log("Learning Typescript!!");
 
 var num = 10;
 
-console.log(num);
+console.log(num);  
 
 var firstName: string = "faraz";     
 
