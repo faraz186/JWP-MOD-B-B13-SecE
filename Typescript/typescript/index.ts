@@ -22,7 +22,7 @@ if (age === 20) {
   console.log("allow");    
 } else {  
   console.log("not allow");
-}
+}   
 
 var arr: (string | number | boolean)[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];      
   
