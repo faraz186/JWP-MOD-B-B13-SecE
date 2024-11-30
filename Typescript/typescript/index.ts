@@ -20,7 +20,7 @@ var age: string | number = 20;
   
 if (age === 20) {  
   console.log("allow");    
-} else {
+} else {  
   console.log("not allow");
 }
 
