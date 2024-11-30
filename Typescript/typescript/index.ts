@@ -27,7 +27,7 @@ if (age === 20) {
 var arr: (string | number | boolean)[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];      
   
 arr.push("faraz");
-
+   
 arr.unshift(true);
 
 console.log(arr);
