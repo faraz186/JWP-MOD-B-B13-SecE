@@ -8,7 +8,7 @@ var firstName: string = "faraz";
 
 var percentage: number = 85;
 
-console.log(firstName, percentage);  
+console.log(firstName, percentage);    
 
 var bioData: number | string | boolean = 41;     
   
