@@ -38,7 +38,7 @@ function abc(name: string, num?: number) {
   console.log(name + num);
 }
 
-abc("faraz");
+abc("faraz");  
 
 
 // Object
