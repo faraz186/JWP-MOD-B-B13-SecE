@@ -4,7 +4,7 @@ var num = 10;
 
 console.log(num);
 
-var firstName: string = "faraz";
+var firstName: string = "faraz";   
 
 var percentage: number = 85;
 
