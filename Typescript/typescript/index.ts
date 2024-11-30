@@ -1,4 +1,4 @@
-console.log("Learning Typescript!!");  
+console.log("Learning Typescript!!");    
 
 var num = 10;
 
