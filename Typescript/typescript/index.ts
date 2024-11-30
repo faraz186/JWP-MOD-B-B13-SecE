@@ -17,7 +17,7 @@ var abc: number | string = "faraz";
 abc = "true";
 
 var age: string | number = 20;
-
+  
 if (age === 20) {
   console.log("allow");
 } else {
