@@ -19,7 +19,7 @@ abc = "true";
 var age: string | number = 20;
   
 if (age === 20) {  
-  console.log("allow");  
+  console.log("allow");    
 } else {
   console.log("not allow");
 }
